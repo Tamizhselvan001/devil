@@ -1,5 +1,7 @@
 import React from 'react';
-
+import Special from '../../special';
+import Contact from '../Contact/contact';
+import bg from '../../Assets/Images/card-img.png';
 
 
 import Header  from "../Header/header";
@@ -11,7 +13,9 @@ const Home=()=>{
     return(
 <div>
     <Header/>
-    
+    <img src={bg}/>
+    <Special/>
+    <Contact/>
    </div>
     )
 };
