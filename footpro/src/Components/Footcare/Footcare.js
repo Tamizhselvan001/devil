@@ -7,7 +7,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Footcare=()=> {
         return (
             <div>
-                <img src={logo} class="img-fluid w-100" alt="Responsive image"/>
+<img src={logo} class="img-fluid w-100" alt="Responsive image"/>
 <div class="container">
     <h2 class="text-center mt-3">Our Service</h2>
     <div class="row mt-2">
