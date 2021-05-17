@@ -1,26 +1,35 @@
-import React from 'react';
-import "./header.css";
-import "fontawesome"
-import  logo from './logo.png'
-const Header=()=> {
-        return (
-        <div>
-             <nav>
-      <input type="checkbox" id="check"/>
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-	  <img src={logo} class="logo"/>
-      
-      <ul>
-        <li><a  href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </nav><section></section>
+import React from 'react'
+import bg from '../../Assets/Images/card-img.png';
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+function Header() {
+    return (
+        <div className="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+               <img src={bg} width="50" height="45" class="rounded" alt=""/>
+            </a>
+            <div>
+            <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Footcare">Footcare</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/service">Our Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+          </div>
+        </nav>
         </div>
-        );
-    };
+    )
+}
 
-export default Header;
+export default Header
