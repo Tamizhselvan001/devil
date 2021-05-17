@@ -7,6 +7,7 @@ const Home=()=>{
     <div>
     <img src={bg} class="img-fluid" alt="Responsive image"/>
     <Specials/>
+
     </div>
     )
 };
