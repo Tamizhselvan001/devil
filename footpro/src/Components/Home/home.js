@@ -1,5 +1,5 @@
 import React from 'react';
-import Special from '../../special';
+
 import Contact from '../Contact/contact';
 import bg from '../../Assets/Images/card-img.png';
 
@@ -9,6 +9,7 @@ import slide1 from "./slider/1.jpg";
 import slide2 from "./slider/2.jpg";
 import slide3 from "./slider/3.jpg";
 import slide4 from "./slider/4.jpg";
+import Special from '../Special/special';
 const Home=()=>{
     return(
 <div>

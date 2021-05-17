@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./special.css";
-import icon from "./Assets/Images/f1.jpeg"
+import icon from "../../Assets/Images/f1.jpeg";
 const Special=()=> {
         return (
             <div>

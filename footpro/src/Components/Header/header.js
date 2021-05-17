@@ -4,7 +4,7 @@ import "fontawesome"
 import  logo from './logo.png'
 const Header=()=> {
         return (
-        <div>
+        <div className="body">
              <nav>
       <input type="checkbox" id="check"/>
       <label for="check" class="checkbtn">
@@ -12,7 +12,7 @@ const Header=()=> {
       </label>
 	  <img src={logo} class="logo"/>
       
-      <ul>
+      <ul >
         <li><a  href="">Home</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Services</a></li>

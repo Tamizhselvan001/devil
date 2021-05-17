@@ -36,7 +36,6 @@ inputs.forEach((input) => {
       
                 <div class="info">
                   <div class="information">
-                  <i class="fas fa-map-marked-alt"></i>
                     <img src={location}class="icon" alt="" />
                     <p>3/26 Sri Sakthi Nagar</p>
                   </div>
@@ -94,7 +93,7 @@ inputs.forEach((input) => {
                     <label for="">Message</label>
                     <span>Message</span>
                   </div>
-                  <input type="submit" value="Send" class="btn" />
+                  <input type="submit" value="Send" class="bt" />
                 </form>
               </div>
             </div>
