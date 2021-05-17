@@ -24,7 +24,7 @@ inputs.forEach((input) => {
   input.addEventListener("blur", blurFunc);
 });
         return (
-            <div class="container">
+            <div class="contain">
            
             <img src={shape} class="square" alt="" />
             <div class="form">
@@ -74,22 +74,22 @@ inputs.forEach((input) => {
       
                 <form >
                   <h3 class="title">Contact us</h3>
-                  <div class="input-container">
+                  <div class="input-contain">
                     <input type="text" name="name" class="input" />
                     <label for="">Username</label>
                     <span>Username</span>
                   </div>
-                  <div class="input-container">
+                  <div class="input-contain">
                     <input type="email" name="email" class="input" />
                     <label for="">Email</label>
                     <span>Email</span>
                   </div>
-                  <div class="input-container">
+                  <div class="input-contain">
                     <input type="tel" name="phone" class="input" />
                     <label for="">Phone</label>
                     <span>Phone</span>
                   </div>
-                  <div class="input-container textarea">
+                  <div class="input-contain textarea">
                     <textarea name="message" class="input"></textarea>
                     <label for="">Message</label>
                     <span>Message</span>
