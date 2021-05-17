@@ -1,5 +1,6 @@
 import React from 'react';
 import "./header.css";
+import "fontawesome"
 import  logo from './logo.png'
 const Header=()=> {
         return (
