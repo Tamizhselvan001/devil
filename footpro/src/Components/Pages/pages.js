@@ -4,8 +4,8 @@ import bg from '../../Assets/Images/Wallpaper1.jpg';
 const Services=()=> {
 return (
 <div class="row container-fluid mt-3">
-  <div class="col-sm-4">
-  <img class="w-100 rounded" src={bg}/>
+  <div class="col-sm-4 justify-content-center">
+  <img class="w-100 rounded mt-2" src={bg}/>
   </div>
   <div class="col-sm-8  mt-2 mb-5">
       <h1>What is a paragraph? </h1>
