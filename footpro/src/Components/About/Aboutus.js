@@ -1,11 +1,11 @@
 import React from 'react';
-import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import bg from '../../Assets/Images/card-img.png';
+import bg from '../../Assets/Images/Wallpaper11.jpg';
+
 const Aboutus=()=>{
     return(
         <div>
         <img src={bg} class="img-fluid w-100" alt="Responsive image"/>
-            <div class="container text-justify mt-5">
+           <div class="container text-justify mt-4">
                <h2>What is This ?</h2>
                <p>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
                <h2>Footcare</h2>

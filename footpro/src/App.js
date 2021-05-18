@@ -1,11 +1,13 @@
+import Header  from "./Components/Header/header";
 import Routes from "./routes";
+import Footer from './Components/Footer/footer'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Components/Header/header";
 function App() {
   return (
     <div>
-      <Header/>
-      <Routes/>
+    <Header/>
+    <Routes/>
+    <Footer/>
     </div>
   );
 }

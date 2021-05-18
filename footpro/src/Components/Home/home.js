@@ -1,13 +1,15 @@
 import React from 'react';
+import Special from '../../special';
+import Contact from '../Contact/contact';
 import bg from '../../Assets/Images/card-img.png';
-import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Specials from './special'
+
 const Home=()=>{
     return(
-    <div>
-    <img src={bg} class="img-fluid" alt="Responsive image"/>
-    <Specials/>
-    </div>
+<div>
+    <img src={bg} className="w-100"/>
+    <Special/>
+    <Contact/>
+   </div>
     )
 };
 
