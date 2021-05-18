@@ -6,13 +6,13 @@ const Aboutus=()=>{
         <div>
         <img src={bg} class="img-fluid w-100" alt="Responsive image"/>
            <div class="container text-justify mt-4">
-               <h2>What is This ?</h2>
-               <p>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
-               <h2>Footcare</h2>
-               <p>Our products give immediate results upon wearing and the change is noticeable immediately. Our Insoles are resilient and offer Pump effect ( Bounce effect), achieving proper blood circulation in the lower limbs. Proper blood flow helps to avoid calcification and gangrene and thereby reduces the chances of amputation in diabetics. Our Insoles also act an effective Preventive mechanism against the onset of Neuropathy in Diabetics where there is full / partial loss of sensation in the foot.</p>
-               <h2>Footcare</h2>
-               <p>Our Footwear and Insoles also act as a preventive method to avoid further complications in future. Even in health conscious individuals , our insoles offer the best support with proper cushioning , providing the best in comfort for your legs and foot.
-                   It is also seen that regular usage improves the overall vitality and energy of people. With Improved mobility and pain relief, the person feels charged up and enthusiastic to take on the world!</p>
+               <h2>About Us</h2>
+               <p>WE @ RR ORTHOCARE SERVING THE FOOT AND ANKLE COMMUNITY SINCE THE PAST FEW YEARS</p>
+               <p>RR ORTHO IS DEDICATED TO BEING THE LEADING PROVIDER OF DIABETIC,ORTHOPETIC,CUMSOM MADE COMPUTERIZED INSOLES AND WOUND CARE SOLUTIONS TO THE FOOT AND ANKLE COMMUNITY.</p>
+               <p>BEYOND THE MANUFACTURE AND SALE OF VARIOUS PRODUCTS AND SERVICES.WE ARE DEDICATED TO WORK ON NEW PRODUCT DEVELOPMENTS AND SUPPORT WITH GREAT R AND D TO MEET THE REQUIREMENTS OF THE END USER OF THE PRODUCT IN MAKING THEM COST EFFECTIVE AND LONG LASTING.</p>
+               <p>WE STRIVE TO BRING THE LATEST IN TECHNOLOGY, SKILL AND INNOVATIONS IN THE FIELD OF PROSTHETICS AND ORTHOTICS</p>
+               <p>OUR MISSION IS TO PROVIDE A COMPLETE QUALITY FOOT CARE TO EACH AND EVERY PATIENT IN INDIA AT AN AFFORDABLE PRICE.</p>
+               <p>WE OFFER STATE-OF-THE-ART TECHNOLOGY, QUALITY AND SERVICE TO PATIENTS THROUGH THE USE OF ADVANCED DIGITIZING SYSTEMS, LATEST MACHINERIES AND A WORLD CLASS GAIT TRAINING AREA. OUR CLINICIANS ARE HIGHLY TRAINED, QUALIFIED AND ARE AMERICAN BOARD CERTIFIED WHO PAY SPECIAL ATTENTION TO A PATIENT’S NEEDS AND THEIR CONCERNS. THROUGH RESEARCH AND EDUCATION WE STRIVE TO ADVANCE THE FIELD OF FOOT AND ANKLE COMMUNITY.</p>
             </div>
         </div>
     )
