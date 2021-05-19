@@ -11,14 +11,14 @@ import slide3 from "./slider/3.jpg";
 import slide4 from "./slider/4.jpg";
 import Special from '../Special/special';
 import Footer from '../Footer/Footer';
-import Header2 from '../Header/header';
+import Header2 from '../Header/header2';
 const Home=()=>{
     return(
 <div>
     <Header/>
   
     <Contact/>
-
+    <Header2/>
    </div>
     )
 };
