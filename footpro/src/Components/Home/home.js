@@ -10,13 +10,17 @@ import slide2 from "./slider/2.jpg";
 import slide3 from "./slider/3.jpg";
 import slide4 from "./slider/4.jpg";
 import Special from '../Special/special';
+import Footer from '../Footer/Footer';
+import Header2 from '../Header/header';
 const Home=()=>{
     return(
 <div>
     <Header/>
-    <img src={bg}/>
+    
     <Special/>
+    <Header2/>
     <Contact/>
+    <Footer/>
    </div>
     )
 };

@@ -18,6 +18,7 @@
     margin-left: 10%;
     margin-top: 0.6em;
   }
+
   nav ul{
 	float: right;
 	margin-right: 20px;
@@ -51,6 +52,7 @@
   #check{
 	display: none;
   }
+  
   @media (max-width: 952px){
 	
 	nav ul li a{

@@ -9,6 +9,7 @@ import Home from  "./Components/Home/home"
 import Special from './Components/Services/Services';
 import Header from './Components/Header/header';
 import Pages from './Pages/Pages';
+import Footer from './Components/Footer/Footer';
 function Routes() {
     return (
         <div>
@@ -21,6 +22,7 @@ function Routes() {
       <Route exact path="/footcare" component={Footcare}/>
       <Route exact path="/service" component={Services}/>
       <Route exact path="/page" component={Pages}/>
+      <Route exact path="/footer" component={Footer}/>
       </Switch>
     </Router>
         </div>
