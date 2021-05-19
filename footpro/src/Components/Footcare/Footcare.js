@@ -31,19 +31,19 @@ const Footcare=()=> {
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg1}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg1}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg3}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg3}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg4}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg4}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
@@ -52,25 +52,25 @@ const Footcare=()=> {
     <div class="row mt-2">
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg5}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg5}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg6}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg6}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg2}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg2}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg7}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg7}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
@@ -79,25 +79,25 @@ const Footcare=()=> {
     <div class="row mt-2">
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg8}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg8}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg9}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg9}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg10}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg10}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg11}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg11}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
@@ -106,25 +106,25 @@ const Footcare=()=> {
     <div class="row mt-2">
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={bg1}/>
+            <a href="/pages"><img class="w-100 rounded" src={bg1}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card1}/>
+            <a href="/pages"><img class="w-100 rounded" src={card1}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card2}/>
+            <a href="/pages"><img class="w-100 rounded" src={card2}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
@@ -133,25 +133,25 @@ const Footcare=()=> {
     <div class="row mt-2">
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card1}/>
+            <a href="/pages"><img class="w-100 rounded" src={card1}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card2}/>
+            <a href="/pages"><img class="w-100 rounded" src={card2}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
@@ -160,25 +160,25 @@ const Footcare=()=> {
     <div class="row mt-2">
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card1}/>
+            <a href="/pages"><img class="w-100 rounded" src={card1}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card2}/>
+            <a href="/pages"><img class="w-100 rounded" src={card2}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
@@ -187,25 +187,25 @@ const Footcare=()=> {
     <div class="row mt-2">
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card1}/>
+            <a href="/pages"><img class="w-100 rounded" src={card1}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card2}/>
+            <a href="/pages"><img class="w-100 rounded" src={card2}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
@@ -214,25 +214,25 @@ const Footcare=()=> {
     <div class="row mt-2">
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card1}/>
+            <a href="/pages"><img class="w-100 rounded" src={card1}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card2}/>
+            <a href="/pages"><img class="w-100 rounded" src={card2}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
@@ -241,25 +241,25 @@ const Footcare=()=> {
     <div class="row mt-2">
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card1}/>
+            <a href="/pages"><img class="w-100 rounded" src={card1}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card2}/>
+            <a href="/pages"><img class="w-100 rounded" src={card2}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
@@ -268,25 +268,25 @@ const Footcare=()=> {
     <div class="row mt-2">
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card1}/>
+            <a href="/pages"><img class="w-100 rounded" src={card1}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card2}/>
+            <a href="/pages"><img class="w-100 rounded" src={card2}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
         <div class="col text-center mt-3">
         <div class="bg-light p-2 rounded">
-            <img class="w-100 rounded" src={card}/>
+            <a href="/pages"><img class="w-100 rounded" src={card}/></a>
             <h5>German Technology</h5>
         </div>
         </div>
