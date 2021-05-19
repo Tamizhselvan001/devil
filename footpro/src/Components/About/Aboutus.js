@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from '../../Assets/Images/Wallpaper11.jpg';
+import bg from '../../Assets/Images/Wallpaper10.jpg';
 
 const Aboutus=()=>{
     return(

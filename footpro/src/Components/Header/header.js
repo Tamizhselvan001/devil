@@ -15,30 +15,13 @@ const Header=()=> {
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
-        <li>
-          <div class="dropdown">
-            <a>Footcare</a>
-            <div class="dropdown-content">
-            <a href="#">Our Service</a>
-            <a href="#">Custom made footwears</a>
-            <a href="#">Mcr and mcp footwears</a>
-            <a href="#">Prefab arch support eva footwear</a>
-            <a href="#">Wound care shoe</a>
-            <a href="#">Ankle boot</a>
-            <a href="#">Surgical boot</a>
-            <a href="#">Kids care</a>
-            <a href="#">Prosthetics</a>
-            <a href="#">Orthotics</a>
-            </div>
-          </div>
-        </li>
+        <li><a href="/footcare">Footcare</a></li>
         <li><a href="/service">Services</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
-      
-    </nav>
-        </div>
-        );
+      </nav>
+      </div>
+      );
     };
 
 export default Header;

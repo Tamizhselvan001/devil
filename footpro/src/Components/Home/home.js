@@ -1,7 +1,7 @@
 import React from 'react';
 import Special from '../../special';
 import Contact from '../Contact/contact';
-import bg from '../../Assets/Images/card-img.png';
+import bg from '../../Assets/Images/Wallpaper4.jpg';
 
 const Home=()=>{
     return(
