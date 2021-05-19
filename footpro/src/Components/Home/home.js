@@ -6,7 +6,7 @@ import bg from '../../Assets/Images/Wallpaper4.jpg';
 const Home=()=>{
     return(
 <div>
-    <img src={bg} className="w-100"/>
+    <img src={bg} id="Head-img-css" className="w-100"/>
     <Special/>
     <Contact/>
    </div>

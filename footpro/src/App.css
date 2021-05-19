@@ -1,0 +1,88 @@
+/* All Pages */
+
+#Service-card-css{
+    background-color:yellow;
+    box-shadow:5px 5px 20px 5px pink;  
+}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+    /* About pages  */
+    #About-img-css{
+        width: 100%;
+        height: 150px;
+    }
+
+    /* Service pages */
+    .all-service-css h5{
+        margin-top: 10px;
+        font-size: 12px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .all-service-css img{
+        width: 100%;
+        height: 100px;
+    }
+    
+ }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 668px) { 
+    
+    /* Service pages */
+    .all-service-css h5{
+        margin-top: 10px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+
+
+ }
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+    /* Service pages */
+    .all-service-css h5{
+        margin-top: 10px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+
+ }
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #Head-img-css{
+        height: 550px;
+    }
+    
+    /* Service pages */
+    .all-service-css h5{
+        margin-top: 10px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #Head-img-css{
+        height: 550px;
+    }
+
+    /* Service pages */
+    .all-service-css h5{
+        margin-top: 10px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #Service-card-css img{
+        height: 200px;
+    }
+    
+ }
