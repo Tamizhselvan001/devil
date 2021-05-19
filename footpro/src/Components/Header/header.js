@@ -5,7 +5,7 @@ import "fontawesome"
 import  logo from '../../Assets/Images/logo.jpeg'
 const Header=()=> {
   return (
-    <div>
+    <div  class="body">
       <nav>
       <input type="checkbox" id="check"/>
       <label for="check" class="checkbtn">
