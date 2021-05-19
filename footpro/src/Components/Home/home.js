@@ -16,11 +16,9 @@ const Home=()=>{
     return(
 <div>
     <Header/>
-    
-    <Special/>
-    <Header2/>
+  
     <Contact/>
-    <Footer/>
+
    </div>
     )
 };
