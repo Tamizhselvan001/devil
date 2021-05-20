@@ -25,7 +25,6 @@ inputs.forEach((input) => {
 });
         return (
             <div class="contain">
-           
             <img src={shape} class="square" alt="" />
             <div class="form">
               <div class="contact-info">
