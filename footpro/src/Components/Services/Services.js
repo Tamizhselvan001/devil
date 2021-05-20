@@ -20,39 +20,39 @@ return (
             <h5>Custom made footwears</h5>
         </div>
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">
-            <a href="/pages"><img class="w-100 rounded mt-2" src={bg2} alt="Items"/></a>
+         <Link to={'/pages'}><img class="w-100 rounded mt-2" src={bg2} alt="Items"/></Link>
             <h5>Mcr and mcp footwears</h5>
         </div>
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">
-            <a href="/pages"><img class="w-100 rounded mt-2" src={bg3} alt="Items"/></a>
+        <Link to={'/pages'}><img class="w-100 rounded mt-2" src={bg3} alt="Items"/></Link>
             <h5>Prefab arch support eva footwear</h5>
         </div>
         </div>
         <div class="row">
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">
-            <a href="/pages"><img class="w-100 rounded mt-2" src={bg4} alt="Items"/></a>
+        <Link to={'/pages'}><img class="w-100 rounded mt-2" src={bg4} alt="Items"/></Link>
             <h5>Wound care shoe</h5>
         </div>
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">
-            <a href="/pages"><img class="w-100 rounded mt-2" src={bg5} alt="Items"/></a>
+        <Link to={'/pages'}><img class="w-100 rounded mt-2" src={bg5} alt="Items"/></Link>
             <h5>Ankle boot</h5>
         </div>
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">
-            <a href="/pages"><img class="w-100 rounded mt-2" src={bg6} alt="Items"/></a>
+        <Link to={'/pages'}><img class="w-100 rounded mt-2" src={bg6} alt="Items"/></Link>
             <h5>Surgical boot</h5>
         </div>
         </div>
         <div class="row">
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">
-            <a href="/pages"><img class="w-100 rounded mt-2" src={bg6} alt="Items"/></a>
+        <Link to={'/pages'}><img class="w-100 rounded mt-2" src={bg6} alt="Items"/></Link>
             <h5>Kids care</h5>
         </div>
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">
-            <a href="/pages"><img class="w-100 rounded mt-2" src={bg6} alt="Items"/></a>
+        <Link to={'/pages'}><img class="w-100 rounded mt-2" src={bg6} alt="Items"/></Link>
             <h5>Prosthetic</h5>
         </div>
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">
-            <a href="/orthotics"><img class="w-100 rounded mt-2" src={bg6} alt="Items"/></a>
+        <Link to={'/pages'}><img class="w-100 rounded mt-2" src={bg6} alt="Items"/></Link>
             <h5>Orthotics</h5>
         </div>
         </div>

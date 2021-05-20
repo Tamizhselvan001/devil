@@ -1,87 +1,87 @@
 
 @media only screen and (max-width: 600px) {
-    /* For mobile phones: */
-    .logo img {
-      width: 100px;
-      height: 50px;
-      padding: 5px;
-      margin-left: 3%;
-    }
-    body{
-      background-color:rgb(255, 255, 255);
-      margin: 0px;
-      font-size: 25px;
-    }
-    .navbar{
-      background-color: rgb(255, 255, 255);
-      font-size: 18px;
-    }
-    #lin{ 
-      display: none;
-    }
-    .app-menu{
-      float:right;
-      position: absolute;
-      right: 20px;
-      top:10px;
-    }
-    .app-menu button{
-      background-color: rgb(255, 255, 255);
-      border: none;
-    }
-    .app-lin{
-      background-color: rgb(255, 255, 255);
-      text-align: center;
-      line-height: 45px;
-      position: absolute;
-      opacity: 0.9;
-      width: 60%;
-      right: 0px;
-      
-    }
-    #app-lin{
-      font-size: 25px;
-      text-decoration: none;
-    }
-    }
-  
-  
-  
-  @media only screen and (min-width: 700px) {  
-    .logo img {
-      width: 300px;
-      height: 70px;
-      border-radius: 15px;
-    }
-    #mar {
-      margin-left: 5%;
-    }
-    body{
-      background-color:rgb(255, 255, 255);
-      margin: 0px;
-      font-size: 25px;
-    }
-    .app-menu{
-      display: none;
-    }
-    .app-lin{
-      display: none;
-    }
-    .navbar{
-      background-color: rgb(255, 255, 255);
-      font-size: 18px;
-    }
-    #lin{
-      text-decoration: none;
-      padding-left: 40px;
-      color:rgb(2, 1, 0);
-    }
-    .Lin{
-      margin-left: 30%;
-      top:30px;
-      right:30px;
-      position: absolute; 
-    }
+  /* For mobile phones: */
+  .logo img {
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    margin-left: 3%;
+  }
+  body{
+    background-color:rgb(255, 255, 255);
+    margin: 0px;
+    font-size: 25px;
+  }
+  .navbar{
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+  }
+  #lin{ 
+    display: none;
+  }
+  .app-menu{
+    float:right;
+    position: absolute;
+    right: 20px;
+    top:10px;
+  }
+  .app-menu button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+  }
+  .app-lin{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    opacity: 0.9;
+    width: 60%;
+    right: 0px;
     
-    }
-    
+  }
+  #app-lin{
+    font-size: 25px;
+    text-decoration: none;
+  }
+  }
+
+
+
+@media only screen and (min-width: 700px) {  
+  .logo img {
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+  }
+  #mar {
+    margin-left: 5%;
+  }
+  body{
+    background-color:rgb(255, 255, 255);
+    margin: 0px;
+    font-size: 25px;
+  }
+  .app-menu{
+    display: none;
+  }
+  .app-lin{
+    display: none;
+  }
+  .navbar{
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+  }
+  #lin{
+    text-decoration: none;
+    padding-left: 40px;
+    color:rgb(2, 1, 0);
+  }
+  .Lin{
+    margin-left: 30%;
+    top:30px;
+    right:30px;
+    position: absolute; 
+  }
+  
+  }
+  

@@ -15,8 +15,19 @@ import Footer from './Components/Footer/footer'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
 import './navcss.css'
-
+import SvgIcon from '@material-ui/core/SvgIcon';
+import CancelIcon from '@material-ui/icons/Cancel';
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {showWarning: false};
+    this.handleToggleClick = this.handleToggleClick.bind(this);
+  }
+  handleToggleClick() {
+    this.setState(state => ({
+      showWarning: !state.showWarning
+    }));
+  }
   render() {
   return (  
     <div>
@@ -34,6 +45,24 @@ class App extends React.Component {
           <NavLink id="lin" to="/service">OurServices</NavLink>
           <NavLink id="lin" to="/contact">Contact</NavLink>
           </div>
+          </div>
+          <div className="app-menu">
+        <button onClick={this.handleToggleClick}>{this.state.showWarning ? 
+        <CancelIcon fontSize="large"/>
+        : 
+        <SvgIcon color="primary" fontSize="large"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" /></SvgIcon>
+        }</button>
+        </div>        
+        <div>
+          {this.state.showWarning ? 
+          <div className='app-lin'>
+           <NavLink id="app-lin" to="/"> Home </NavLink>
+          <NavLink id="app-lin" to="/about">About</NavLink>
+          <NavLink id="app-lin" to="/footcare"> Footcare </NavLink>
+          <NavLink id="app-lin" to="/service">OurServices</NavLink>
+          <NavLink id="app-lin" to="/contact">Contact</NavLink>
+          </div>  
+          : <> </>}
           </div>
       <Switch>
       <Route exact path="/" component={Home}/>
