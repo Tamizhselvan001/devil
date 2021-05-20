@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import bg from '../../Assets/Images/Wallpaper3.jpg';
 import bg1 from '../../Assets/Images/Wallpaper6.jpg';
 import bg2 from '../../Assets/Images/Wallpaper1.jpg';
@@ -15,7 +16,7 @@ return (
     <h1 class="text-center">Our Service</h1>
     <div class="row">
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">
-            <a href="/pages"><img class="w-100 rounded mt-2" src={bg1} alt="Image"/></a>
+            <Link to={'/orthotics'}><img class="w-100 rounded mt-2" src={bg1} alt="Image"/></Link>
             <h5>Custom made footwears</h5>
         </div>
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">

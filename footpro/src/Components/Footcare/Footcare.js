@@ -17,9 +17,9 @@ import bg10 from '../../Assets/Images/Wallpaper11.jpg';
 import bg11 from '../../Assets/Images/Wallpaper12.jpg';
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Footcare=()=> {
-        return (
-            <div>
-                <img src={logo} class="img-fluid w-100" id="Head-img-css"  alt="Responsive image"/>
+return (
+<div className="w-100">
+<img src={logo} class=" w-100" id="Head-img-css"  alt="Responsive image"/>
 <div class="container">
     <h2 class="text-center mt-3">Our Service</h2>
     <div class="row mt-2">
@@ -292,9 +292,7 @@ const Footcare=()=> {
         </div>
     </div>
 </div>
-
-
-            </div>
+</div>
         );
     }
 export default Footcare;

@@ -14,8 +14,8 @@ import Pages from './Components/Pages/pages'
 function Routes() {
     return (
         <div>
-          <Router>
-        <Switch>
+      <Router>
+      <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/contact" component={Contact}/>
       <Route exact path="/special" component={Special}/>
