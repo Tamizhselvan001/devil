@@ -2,3 +2,11 @@
     font-size:35px;
     color:green;
 }
+#footer-css{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+#f-link-css{
+    text-decoration: none;
+}

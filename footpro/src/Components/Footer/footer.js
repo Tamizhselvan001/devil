@@ -1,23 +1,30 @@
 import React from 'react';
 import './footer.css'
+import {Link} from "react-router-dom";
 const Services=()=> {
 return (
 <div>
 <div class="bg-dark text-white p-5 	d-none d-sm-block">
-    <div class="row">
+    <div class="row" id="footer-css">
     <div class="col-sm">
       <h4>About</h4>
       Arise,awake and donot stop until the goal is reached.
     </div>
-    <div class="col-sm">
-      <h4>Service Offerings</h4>
-      Data, Analytics and AI Applications 
+    <div class="col-sm" >
+      <h4>RR Leather </h4>
+      <Link to={'/about'} id="f-link-css">About</Link><br/>
+      <Link to={'/footcare'}                                                                                                                                                                        id="f-link-css">Footcare</Link><br/>
+      <Link to={'/service'} id="f-link-css">Services</Link><br/>
+      <Link to={'/contact'} id="f-link-css">Contact</Link><br/>
     </div>
     <div class="col-sm">
-      <h4>Address</h4>
-      No 7, Vivekananda Street,
-      Dubai main Road,
-      Dubai.
+      <h4>Contact</h4>
+      <p>
+      All types of Shoes and Sandals<br/>
+      No 26, 6st Adem Nager,<br/>
+      Nagalkeni,<br/>
+      Chennai-600044<br/>
+      </p>
     </div>
     </div>
 </div>
