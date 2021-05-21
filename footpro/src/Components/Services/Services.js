@@ -52,7 +52,7 @@ return (
             <h5>Prosthetic</h5>
         </div>
         <div class="col text-center m-4 bg-info rounded" id="Service-card-css">
-        <Link to={'/pages'}><img class="w-100 rounded mt-2" src={bg6} alt="Items"/></Link>
+        <Link to={'/orthotics'}><img class="w-100 rounded mt-2" src={bg6} alt="Items"/></Link>
             <h5>Orthotics</h5>
         </div>
         </div>
