@@ -33,11 +33,11 @@
     background-color: rgb(255, 255, 255);
     text-align: center;
     line-height: 45px;
-    position: absolute;
-    opacity: 0.9;
-    width: 60%;
+    position: fixed;
+    width: 100%;
     right: 0px;
-    
+    top: 0px;
+    background-attachment: fixed;    
   }
   #app-lin{
     font-size: 25px;

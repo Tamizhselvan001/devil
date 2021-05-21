@@ -1,12 +1,11 @@
 import React from 'react';
-import Special from '../../special';
+import Special from './special';
 import Contact from '../Contact/contact';
-import bg from '../../Assets/Images/Wallpaper4.jpg';
-
+import Slider from './slider'
 const Home=()=>{
     return(
-<div>
-    <img src={bg} id="Head-img-css" className="w-100"/>
+    <div class="w-100">
+    <Slider/>
     <Special/>
     <Contact/>
    </div>

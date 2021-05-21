@@ -7,8 +7,8 @@ import Contact from './Components/Contact/contact';
 import Footcare from './Components/Footcare/Footcare';
 import Services from './Components/Services/Services';
 import Home from  "./Components/Home/home"
-import Special from './special';
-import Orthoses from './Components/Services/Orthoses/Orthoses'
+import Special from './Components/Home/special';
+import Orthoses from './Components/Services/Pages/Orthoses'
 import logo from "./Assets/Images/logo.jpeg"
 import Pages from './Components/Pages/pages'
 import Footer from './Components/Footer/footer'
@@ -17,6 +17,7 @@ import './App.css'
 import './navcss.css'
 import SvgIcon from '@material-ui/core/SvgIcon';
 import CancelIcon from '@material-ui/icons/Cancel';
+import Menu from './Components/Header/menu';
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -29,9 +30,10 @@ class App extends React.Component {
     }));
   }
   render() {
-  return (  
+  return (                                                                          
     <div>
     <Router>
+      <Menu/>
       <div className="navbar">  
       <div id="mar">
         <div className='logo'>
@@ -56,11 +58,25 @@ class App extends React.Component {
         <div>
           {this.state.showWarning ? 
           <div className='app-lin'>
-           <NavLink id="app-lin" to="/"> Home </NavLink>
-          <NavLink id="app-lin" to="/about">About</NavLink>
-          <NavLink id="app-lin" to="/footcare"> Footcare </NavLink>
-          <NavLink id="app-lin" to="/service">OurServices</NavLink>
-          <NavLink id="app-lin" to="/contact">Contact</NavLink>
+            <nav class="navbar bg-light fixed-top">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+              <NavLink id="app-lin" to="/"> Home </NavLink>
+              </li>
+              <li class="nav-item">
+              <NavLink id="app-lin" to="/about">About</NavLink>
+              </li>
+              <li class="nav-item">
+              <NavLink id="app-lin" to="/footcare"> Footcare </NavLink>
+              </li>
+              <li class="nav-item">
+              <NavLink id="app-lin" to="/service">OurServices</NavLink>
+              </li>
+              <li class="nav-item">
+              <NavLink id="app-lin" to="/contact">Contact</NavLink>
+              </li>
+            </ul>
+          </nav>
           </div>  
           : <> </>}
           </div>

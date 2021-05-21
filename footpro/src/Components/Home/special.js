@@ -1,17 +1,17 @@
 import React from 'react';
 
 import "./special.css";
-import icon1 from "./Assets/Images/f1.png"
-import icon2 from "./Assets/Images/f2.png"
-import icon3 from "./Assets/Images/f3.png"
-import icon4 from "./Assets/Images/f4.png"
-import icon5 from "./Assets/Images/f5.png"
-import icon6 from "./Assets/Images/f6.png"
+import icon1 from "../../Assets/Images/f1.png"
+import icon2 from "../../Assets/Images/f2.png"
+import icon3 from "../../Assets/Images/f3.png"
+import icon4 from "../../Assets/Images/f4.png"
+import icon5 from "../../Assets/Images/f5.png"
+import icon6 from "../../Assets/Images/f6.png"
 
 const Special=()=> {
-        return (
-            <div className="mt-5 container">
-<h1 class="text-center">Why is it Special</h1>
+return (
+<div className="mt-5 container">
+<div class="col text-center "><h1>Why is it Special</h1></div>
     <div class="row">
         <div class="col text-center mt-5 ">
             <img class="img w-15" src={icon1} alt="Card-Image"/>

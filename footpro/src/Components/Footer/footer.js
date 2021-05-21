@@ -5,7 +5,7 @@ const Services=()=> {
 return (
 <div>
 <div class="bg-dark text-white p-5 	d-none d-sm-block">
-    <div class="row" id="footer-css">
+    <div class="row text-center" id="footer-css">
     <div class="col-sm">
       <h4>About</h4>
       Arise,awake and donot stop until the goal is reached.
@@ -13,7 +13,7 @@ return (
     <div class="col-sm" >
       <h4>RR Leather </h4>
       <Link to={'/about'} id="f-link-css">About</Link><br/>
-      <Link to={'/footcare'}                                                                                                                                                                        id="f-link-css">Footcare</Link><br/>
+      <Link to={'/footcare'} id="f-link-css">Footcare</Link><br/>
       <Link to={'/service'} id="f-link-css">Services</Link><br/>
       <Link to={'/contact'} id="f-link-css">Contact</Link><br/>
     </div>
