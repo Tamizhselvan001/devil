@@ -17,8 +17,8 @@ const Home=()=>{
 <div>
     <Header/>
   
-    <Contact/>
-    <Header2/>
+
+   
    </div>
     )
 };
