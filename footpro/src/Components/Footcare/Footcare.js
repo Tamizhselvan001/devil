@@ -19,7 +19,6 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Footcare=()=> {
 return (
 <div className="w-100">
-<img src={logo} class=" w-100" id="Head-img-css"  alt="Responsive image"/>
 <div class="container">
     <h2 class="text-center mt-3">Our Service</h2>
     <div class="row mt-2">

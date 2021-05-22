@@ -25,7 +25,7 @@ function Routes() {
       <Route exact path="/pages" component={Pages}/>
       <Route exact path="/orthotics" component={Orthoses}/>
       </Switch>
-    </Router>
+      </Router>
         </div>
       );
     };

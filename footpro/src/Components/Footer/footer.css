@@ -10,9 +10,13 @@
 #f-link-css{
     text-decoration: none;
 }
+@media (min-width: 1200px),(min-width: 992px),
+(min-width: 768px),(min-width: 668px),
+(min-width: 576px) {
 .morning-css{
     background-color: rgb(168, 21, 21);
 }
 .night-css{
     background-color: rgb(46, 42, 42);
+}
 }
