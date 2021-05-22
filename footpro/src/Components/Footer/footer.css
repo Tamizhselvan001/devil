@@ -14,7 +14,7 @@
 (min-width: 768px),(min-width: 668px),
 (min-width: 576px) {
 .morning-css{
-    background-color: rgb(168, 21, 21);
+    background-color: rgb(119, 107, 107);
 }
 .night-css{
     background-color: rgb(46, 42, 42);

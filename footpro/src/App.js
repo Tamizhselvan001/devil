@@ -17,7 +17,9 @@ import './App.css'
 import './navcss.css'
 import SvgIcon from '@material-ui/core/SvgIcon';
 import CancelIcon from '@material-ui/icons/Cancel';
-import Menu from './Components/Header/menu';
+import Header from './Components/Header/header';
+import Routes from './routes';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -32,67 +34,7 @@ class App extends React.Component {
   render() {
   return (                                                                          
     <div>
-    <Router>
-      <Menu/>
-      <div className="navbar">  
-      <div id="mar">
-        <div className='logo'>
-          <img  src={logo} alt="Logo"/>        
-        </div>  
-         
-          <div className='Lin'>
-          <NavLink id="lin" to="/"> Home </NavLink>
-          <NavLink id="lin" to="/about">About</NavLink>
-          <NavLink id="lin" to="/footcare"> Footcare </NavLink>
-          <NavLink id="lin" to="/service">OurServices</NavLink>
-          <NavLink id="lin" to="/contact">Contact</NavLink>
-          </div>
-          </div>
-          <div className="app-menu">
-        <button onClick={this.handleToggleClick}>{this.state.showWarning ? 
-        <CancelIcon fontSize="large"/>
-        : 
-        <SvgIcon color="primary" fontSize="large"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" /></SvgIcon>
-        }</button>
-        </div>        
-        <div>
-          {this.state.showWarning ? 
-          <div className='app-lin'>
-            <nav class="navbar bg-light fixed-top">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-              <NavLink id="app-lin" to="/"> Home </NavLink>
-              </li>
-              <li class="nav-item">
-              <NavLink id="app-lin" to="/about">About</NavLink>
-              </li>
-              <li class="nav-item">
-              <NavLink id="app-lin" to="/footcare"> Footcare </NavLink>
-              </li>
-              <li class="nav-item">
-              <NavLink id="app-lin" to="/service">OurServices</NavLink>
-              </li>
-              <li class="nav-item">
-              <NavLink id="app-lin" to="/contact">Contact</NavLink>
-              </li>
-            </ul>
-          </nav>
-          </div>  
-          : <> </>}
-          </div>
-      <Switch>
-      <Route exact path="/" component={Home}/>
-      <Route exact path="/contact" component={Contact}/>
-      <Route exact path="/special" component={Special}/>
-      <Route exact path="/about" component={Aboutus}/>
-      <Route exact path="/footcare" component={Footcare}/>
-      <Route exact path="/service" component={Services}/>
-      <Route exact path="/pages" component={Pages}/>
-      <Route exact path="/orthotics" component={Orthoses}/>
-        </Switch>
-      </div>
-    <Footer/>
-    </Router>
+    <Routes/>
     </div>
   );
 }

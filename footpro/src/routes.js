@@ -6,15 +6,19 @@ import Contact from './Components/Contact/contact';
 import Footcare from './Components/Footcare/Footcare';
 import Services from './Components/Services/Services';
 import Home from  "./Components/Home/home"
-import Special from './special';
-import Orthoses from './Components/Services/Orthoses/Orthoses'
 
+
+import Footer from './Components/Footer/footer'
 import Pages from './Components/Pages/pages'
+import Header from './Components/Header/header';
+import Orthoses from './Components/Services/Pages/Orthoses';
+import Special from './Components/Home/special';
 
 function Routes() {
     return (
         <div>
       <Router>
+    
       <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/contact" component={Contact}/>
@@ -25,6 +29,7 @@ function Routes() {
       <Route exact path="/pages" component={Pages}/>
       <Route exact path="/orthotics" component={Orthoses}/>
       </Switch>
+      <Footer/>
       </Router>
         </div>
       );
