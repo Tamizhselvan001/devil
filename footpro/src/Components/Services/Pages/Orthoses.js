@@ -147,7 +147,7 @@ function LumbosacralOrthoses() {
         </div>
         <div class="col-sm-8  mt-2 mb-5">
             <p>
-            These collars are used to stabilize the cervical spine and are made from flexible foam, for minimal support, and thermoplastic material, for maximum support.vvvvvvvvvvv
+            These collars are used to stabilize the cervical spine and are made from flexible foam, for minimal support, and thermoplastic material, for maximum support.
             </p>
             <h5>Indications for Soft and Rigid Cervical Collars may include:</h5>
             <ol>
