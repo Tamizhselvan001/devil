@@ -2,9 +2,14 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route, NavLink} from "react-router-dom";
 
 import Aboutus from './Components/About/Aboutus';
-
 import Contact from './Components/Contact/contact';
-import Footcare from './Components/Footcare/Footcare';
+
+import Fcare from './Components/Footcare/Fcare';
+import ToeSeparator from './Components/Footcare/Pages/ToeSeparator';
+import MetartasalBar from './Components/Footcare/Pages/MetartasalBar';
+import MedicalArchSupport from './Components/Footcare/Pages/MedicalArchSupport';
+import Lateral from './Components/Footcare/Pages/Lateral';
+
 import Services from './Components/Services/Services';
 import Home from  "./Components/Home/home"
 import Special from './Components/Home/special';
@@ -15,22 +20,9 @@ import Footer from './Components/Footer/footer'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
 import './navcss.css' 
-import SvgIcon from '@material-ui/core/SvgIcon';
-import CancelIcon from '@material-ui/icons/Cancel';
-import Foot from './Components/Footcare/Foot';
 import Header from './Components/Header/header';
 import WebHeader from './Components/Header/WebHeader';
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {showWarning: false};
-    this.handleToggleClick = this.handleToggleClick.bind(this);
-  }
-  handleToggleClick() {
-    this.setState(state => ({
-      showWarning: !state.showWarning
-    }));
-  }
   render() {
   return (                                                                          
     <div>
@@ -42,11 +34,17 @@ class App extends React.Component {
       <Route exact path="/contact" component={Contact}/>
       <Route exact path="/special" component={Special}/>
       <Route exact path="/about" component={Aboutus}/>
-      <Route exact path="/footcare" component={Footcare}/>
       <Route exact path="/service" component={Services}/>
       <Route exact path="/pages" component={Pages}/>
       <Route exact path="/orthotics" component={Orthoses}/>
-        </Switch>
+      
+
+      <Route exact path="/footcare" component={Fcare}/>
+      <Route exact path="/topseparator" component={ToeSeparator}/>
+      <Route exact path="/metartasalbar" component={MetartasalBar}/>
+      <Route exact path="/medicalarchsupport" component={MedicalArchSupport}/>
+      <Route exact path="/lateral" component={Lateral}/>
+      </Switch>
     <Footer/>
     </Router>
     </div>
