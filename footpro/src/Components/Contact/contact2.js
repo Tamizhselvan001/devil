@@ -4,27 +4,38 @@ import email from "./img/email.png";
 import shape from "./img/shape.png";
 import location from './img/location.png';
 import phone from './img/phone.png';
-const Contact=()=>{
 
-    const inputs = document.querySelectorAll(".input");
+class contact2 extends Component {
+    constructor() {
+        super()
 
-function focusFunc() {
-  let parent = this.parentNode;
-  parent.classList.add("focus");
-}
+    }
 
-function blurFunc() {
-  let parent = this.parentNode;
-  if (this.value == "") {
-    parent.classList.remove("focus");
-  }
-}
+    
 
-inputs.forEach((input) => {
-  input.addEventListener("focus", focusFunc);
-  input.addEventListener("blur", blurFunc);
-});
+    componentDidUpdate() {
+        const inputs = document.querySelectorAll(".input");
+        function focusFunc() {
+            let parent = this.parentNode;
+            parent.classList.add("focus");
+          }
+          
+          function blurFunc() {
+            let parent = this.parentNode;
+            if (this.value == "") {
+              parent.classList.remove("focus");
+            }
+          }
+          
+          inputs.forEach((input) => {
+            input.addEventListener("focus", focusFunc);
+            input.addEventListener("blur", blurFunc);
+          });
 
+    }
+
+   
+    render() {
         return (
             <div class="contain">
             <img src={shape} class="square" alt="" />
@@ -100,10 +111,9 @@ inputs.forEach((input) => {
               </div>
             </div>
           </div>
-      
         );
     }
+}
 
 
-
-export default Contact;
+export default contact2;
