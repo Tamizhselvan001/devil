@@ -11,7 +11,17 @@
 
 
 /*  Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
+@media (max-width: 576px) {  
+
+    /* Web Menu page */
+    #for-web-nav{
+        display: none;
+    }
+
+    /* Mobile Menu page */
+    #for-mob-nav{
+        display: block;
+    }
 
     /* About pages  */
     #About-img-css{
@@ -41,7 +51,17 @@
  }
 
 /*  Medium devices (tablets, 768px and up) */
-@media (min-width: 668px) { 
+@media (max-width: 668px) { 
+
+    /* Web Menu page */
+    #for-web-nav{
+        display: none;
+    }
+
+    /* Mobile Menu page */
+    #for-mob-nav{
+        display: block;
+    }
     
     /* Service pages */
     .all-service-css h5{
@@ -54,17 +74,52 @@
     .carousel-inner img{
         width: 100px;
         height: 250px;
-    
+    }
+ }
+ 
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 668px) { 
+
+    /* Web Menu page */
+    #for-web-nav{
+        display: none;
+    }
+
+    /* Mobile Menu page */
+    #for-mob-nav{
+        display: block;
     }
     
+    /* Service pages */
+    .all-service-css h5{
+        margin-top: 10px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
-
+    /* Slidder Page */
+    .carousel-inner img{
+        width: 100px;
+        height: 250px;
+    }
  }
+
 /*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     #Head-img-css{
         width: 100%;
     }
+
+    /* Mobile Menu page */
+    #for-mob-nav{
+        display: none;
+    }
+
+    /* Web Menu page */
+    #for-web-nav{
+        display: block;
+    }
+
     /* Service pages */
     .all-service-css h5{
         margin-top: 10px;
@@ -78,6 +133,16 @@
 @media (min-width: 992px) { 
     #Head-img-css{
         height: 550px;
+    }
+
+    /* Mobile Menu page */
+    #for-mob-nav{
+        display: none;
+    }
+
+    /* Web Menu page */
+    #for-web-nav{
+        display: block;
     }
     
     /* Service pages */
@@ -101,6 +166,16 @@
     #Head-img-css{
         width: 100%;
         height: 550px;
+    }
+
+    /* Mobile Menu page */
+    #for-mob-nav{
+        display: none;
+    } 
+
+    /* Web Menu page */
+    #for-web-nav{
+        display: block;
     }
 
     /* Service pages */

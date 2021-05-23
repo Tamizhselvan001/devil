@@ -13,12 +13,13 @@ import Pages from './Components/Pages/pages'
 import Header from './Components/Header/header';
 import Orthoses from './Components/Services/Pages/Orthoses';
 import Special from './Components/Home/special';
+import Foot from './Components/Footcare/Foot';
 
 function Routes() {
     return (
         <div>
       <Router>
-    
+      <Header/>
       <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/contact" component={Contact}/>
@@ -28,6 +29,7 @@ function Routes() {
       <Route exact path="/service" component={Services}/>
       <Route exact path="/pages" component={Pages}/>
       <Route exact path="/orthotics" component={Orthoses}/>
+      <Route exact path="/foot" component={Foot}/>
       </Switch>
       <Footer/>
       </Router>
