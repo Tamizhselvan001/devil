@@ -10,7 +10,7 @@ import MetartasalBar from './Components/Footcare/Pages/MetartasalBar';
 import MedicalArchSupport from './Components/Footcare/Pages/MedicalArchSupport';
 import Lateral from './Components/Footcare/Pages/Lateral';
 
-import Services from './Components/Services/Services';
+import Services from './Components/Services/Ourservices'
 import Home from  "./Components/Home/home"
 import Special from './Components/Home/special';
 import Orthoses from './Components/Services/Pages/Orthoses'
