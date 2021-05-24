@@ -17,10 +17,10 @@
         
         .ser-card {
             position: relative;
-            max-width: 300px;
+            max-width: 240px;
             height: 215px;
             background: #fff;
-            margin: 30px 30px;
+            margin: 30px 50px;
             padding: 20px 0px;
             display: flex;
             flex-direction: column;
@@ -34,9 +34,9 @@
         
         .ser-imgBX {
             position: relative;
-            width: 260px;
+            width: 84%;
             height: 200px;
-            top: -60px;
+            top: -50px;
             left: 20px;
             z-index: 1;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -50,7 +50,7 @@
         .ser-content {
             position: relative;
             margin-top: -140px;
-            padding: 10px 15px;
+            padding: 10px 10px;
             text-align: center;
             color: #111;
             visibility: hidden;
@@ -61,7 +61,7 @@
         .ser-card:hover .ser-content {
             visibility: visible;
             opacity: 1;
-            margin-top: -60px;
+            margin-top: -50px;
             transition-delay: 0.3s;
 
         }
