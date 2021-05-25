@@ -3,7 +3,7 @@ import bg from '../../../Assets/Images/Wallpaper1.jpg';
 import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
-export default function ToeSeparator() {
+export default function MedicalArchSupport() {
 
 function AnklePain() {
     return (
@@ -16,12 +16,12 @@ function AnklePain() {
              <p>
              Ankle pain refers to any type of pain or discomfort in your ankles. 
              This pain could be caused by an injury, like a sprain, or by a medical condition,
- such as arthritis.<br/><br/><br/>
+ such as arthritis.<br/><br/>
 An ankle sprain is one of the most common causes of
- ankle pain — making up 85 percent of all ankle injuries. 
+ ankle pain-making up 85 percent of all ankle injuries. 
 A sprain occurs when your ligaments (the tissues that connect bones) tear or get overstretched. 
-             </p>
-             <h4>Causes of Ankle Pain </h4>
+             </p><br/>
+             <h4>Causes of Ankle Pain </h4><br/>
              <p>For immediate at-home treatment of ankle pain, the RICE method is recommended. This includes:</p>
              <ol>
                 <li>Rest — Avoid putting weight on your ankle. Try to move as little as possible
@@ -36,7 +36,7 @@ A sprain occurs when your ligaments (the tissues that connect bones) tear or get
                 <li>Elevation — Whenever possible, keep your ankle raised above heart level 
                    on a stack of pillows or other type of support structure. </li>
             </ol>
-            <p>
+            <p><br/>
             Once your pain subsides, gently exercise your ankle by rotating it in circles. Rotate both directions, and stop if it begins to hurt. 
             You can also use your hands to gently flex the ankle up and down. 
             These exercises will return your range of motion and help exercise your ankle,
@@ -64,17 +64,17 @@ If your ankle pain is a result of arthritis, you will not be able to heal or eli
 
   return (
       <div className="container">
-      <h1 class="mt-5 text-center">BUNION &OVERLAPPING TOES</h1>
-        <h2>MEDIAL ARCH SUPPORT</h2>
+      <h1 class="mt-5 text-center">BUNION &OVERLAPPING TOES</h1><br/><br/>
+        <h2>MEDIAL ARCH SUPPORT</h2><br/>
       <p>
       A hallux valgus deformity, commonly called a bunion, is when there is medial deviation of t
       he first metatarsal and lateral deviation of the great toe (hallux). The condition can lead 
       to painful motion of the joint. 
-      <br/><br/><br/><br/>
+      <br/><br/>
 Hallux valgus is the commonest forefoot deformity, with an estimated prevalence of around 30%.
  It causes symptoms on the medial edge of the foot, the sole, and the small toes. Non-operative 
  treatment may alleviate symptoms but does not correct the deformity of the big toe. 
-</p>
+</p><br/>
 
       <h1>ANKLE PAIN </h1>
         <AnklePain/>

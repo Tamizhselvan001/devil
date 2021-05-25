@@ -4,10 +4,19 @@ import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
 export default function Orthoses() {
-
-function ScoliosisOrthoses() {
-    return (
-        <div class="row">
+return(
+<div className="container">
+  <h1 class="mt-5 text-center">Orthotics</h1>
+  <p>
+    Orthotics, commonly called braces/callipers, are devices used to correct, support or replace musculoskeletal functions lost or impaired as a result of injury or congenital irregularity.
+    They are also used for prevention of deformities. we use the latest in high tech, lightweight components incorporated into precision fitting orthoses to achieve the best possible fit available
+    Orthotics begins with a one-on-one consultation with the clinician and includes evaluation, recommendations, treatment, education and rehabilitation.
+    Our practitioner’s major role is to design and fit custom made orthotic devices. Our Team is dedicated to provide patients with the most effective orthotic solutions. We are continually working to advance the care of orthotics through research and education.
+    Our Orthotic practitioner creates a range of precise, custom fit devices from complex bracing systems to spinal orthosis, neck orthosis, diabetic shoes, cranial helmets etc.
+    Treatments and services encompass pediatrics, adults, cranium, spine, upper and lower extremity, etc.
+  </p>
+        <h1>Scoliosis Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -24,12 +33,8 @@ function ScoliosisOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-
-function LumbosacralOrthoses() {
-    return (
-        <div class="row">
+        <h1>Lumbosacral Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -49,11 +54,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function HyperextensionOrthoses() {
-    return (
-        <div class="row">
+        <h1>Hyperextension Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -70,11 +72,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function ThoracolumbarSacralOrthoses() {
-    return (
-        <div class="row">
+        <h1>Thoracolumbar Sacral Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -95,11 +94,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function HALOSystems() {
-    return (
-        <div class="row">
+        <h1>HALO Systems</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -116,11 +112,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function CervicalThoracicOrthoses() {
-    return (
-        <div class="row">
+        <h1>Cervical Thoracic Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -137,11 +130,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function SoftAndRigidCervicalCollars() {
-    return (
-        <div class="row">
+        <h1>Soft And Rigid Cervical Collars</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -158,11 +148,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function WristOrthoses() {
-    return (
-        <div class="row">
+        <h1>Wrist Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -179,11 +166,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function FractureOrthoses() {
-    return (
-        <div class="row">
+        <h1>Fracture Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -200,11 +184,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function ElbowOrthoses() {
-    return (
-        <div class="row">
+        <h1>Elbow Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -221,11 +202,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function ShoulderOrthoses() {
-    return (
-        <div class="row">
+        <h1>Shoulder Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -242,11 +220,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function MyoelectricOrthoses() {
-    return (
-        <div class="row">
+        <h1>MyoelectricOrthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -270,11 +245,7 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function FingerOrthoses() {
-    return (
-        <div class="row">
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -295,11 +266,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function AnkleFootOrthoses() {
-    return (
-        <div class="row">
+        <h1>Ankle Foot Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -321,11 +289,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function KneeOrthosesPrefabandCustom() {
-    return (
-        <div class="row">
+        <h1>Knee Orthoses – Prefab and Custom</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -346,11 +311,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function FractureOrthoses() {
-    return (
-        <div class="row">
+        <h1>Fracture Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -366,11 +328,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function PatellaTendonBearingOrthoses() {
-    return (
-        <div class="row">
+        <h1>Patella Tendon Bearing Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -386,11 +345,8 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-  function KneeAnkleFootOrthoses() {
-    return (
-        <div class="row">
+        <h1>Knee Ankle Foot Orthoses</h1>
+       <div class="row">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -412,75 +368,6 @@ function LumbosacralOrthoses() {
             </ol>
         </div>
         </div>
-    );
-  }
-
-  return (
-      <div className="container">
-      <h1 class="mt-5 text-center">Orthotics</h1>
-      <p>
-        Orthotics, commonly called braces/callipers, are devices used to correct, support or replace musculoskeletal functions lost or impaired as a result of injury or congenital irregularity.
-        They are also used for prevention of deformities. we use the latest in high tech, lightweight components incorporated into precision fitting orthoses to achieve the best possible fit available
-        Orthotics begins with a one-on-one consultation with the clinician and includes evaluation, recommendations, treatment, education and rehabilitation.
-        Our practitioner’s major role is to design and fit custom made orthotic devices. Our Team is dedicated to provide patients with the most effective orthotic solutions. We are continually working to advance the care of orthotics through research and education.
-        Our Orthotic practitioner creates a range of precise, custom fit devices from complex bracing systems to spinal orthosis, neck orthosis, diabetic shoes, cranial helmets etc.
-        Treatments and services encompass pediatrics, adults, cranium, spine, upper and lower extremity, etc.
-      </p>
-
-      <h1>Scoliosis Orthoses</h1>
-        <ScoliosisOrthoses/>
-
-      <h1>Lumbosacral Orthoses</h1>
-        <LumbosacralOrthoses/>
-
-      <h1>Hyperextension Orthoses</h1>
-        <HyperextensionOrthoses/>
-
-      <h1>Thoracolumbar Sacral Orthoses</h1>
-        <ThoracolumbarSacralOrthoses/>   
-
-      <h1>HALO Systems</h1>
-        <HALOSystems/>  
-
-      <h1>Cervical Thoracic Orthoses</h1>
-        <CervicalThoracicOrthoses/>  
-
-      <h1>Soft And Rigid Cervical Collars</h1>
-        <SoftAndRigidCervicalCollars/>                    
-                
-      <h1>Wrist Orthoses</h1>
-        <WristOrthoses/>  
-
-      <h1>Fracture Orthoses</h1>
-        <FractureOrthoses/>  
-
-      <h1>Elbow Orthoses</h1>
-        <ElbowOrthoses/>  
-
-      <h1>Shoulder Orthoses</h1>
-        <ShoulderOrthoses/>  
-
-      <h1>MyoelectricOrthoses</h1>
-        <MyoelectricOrthoses/>  
-
-      <h1>Finger Orthoses</h1>
-        <FingerOrthoses/>  
-
-      <h1>Ankle Foot Orthoses</h1>
-        <AnkleFootOrthoses/>  
-
-      <h1>Knee Orthoses – Prefab and Custom</h1>
-        <KneeOrthosesPrefabandCustom/>  
-
-      <h1>Fracture Orthoses</h1>
-        <FractureOrthoses/>  
-
-      <h1>Patella Tendon Bearing Orthoses</h1>
-        <PatellaTendonBearingOrthoses/>  
-
-      <h1>Knee Ankle Foot Orthoses</h1>
-        <KneeAnkleFootOrthoses/>  
-
       </div>
   );
 }

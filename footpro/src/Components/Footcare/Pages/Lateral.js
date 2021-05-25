@@ -3,7 +3,7 @@ import bg from '../../../Assets/Images/Wallpaper1.jpg';
 import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
-export default function ToeSeparator() {
+export default function Lateral() {
 
 function ForeFoot() {
     return (
@@ -19,7 +19,7 @@ function ForeFoot() {
               of load during gait and is therefore susceptible to a number of unique problems.   
               <br/><br/>
              </p>
-             <h4>Symptoms  </h4>
+             <h4>SYMPTOMS  </h4>
              <p>The symptoms of forefoot pain vary with each individual forefoot problem. 
                 The causes and contributing factors of forefoot pain are many and include
                  excessive time spent on the feet, poorly fitting shoes and trauma. The treatment of forefoot
@@ -38,17 +38,17 @@ function ForeFoot() {
 
   return (
       <div className="container">
-      <h1 class="mt-5 text-center">BUNION &OVERLAPPING TOES</h1>
-        <h2>LATERAL / MEDIAL WEDGE</h2>
+      <h1 class="mt-5 text-center">BUNION &OVERLAPPING TOES</h1><br/><br/>
+        <h2>LATERAL / MEDIAL WEDGE</h2><br/>
       <p>
       A hallux valgus deformity, commonly called a bunion, is when there is medial deviation of t
       he first metatarsal and lateral deviation of the great toe (hallux). The condition can lead 
       to painful motion of the joint. 
-      <br/><br/><br/><br/>
+      <br/><br/>
 Hallux valgus is the commonest forefoot deformity, with an estimated prevalence of around 30%.
  It causes symptoms on the medial edge of the foot, the sole, and the small toes. Non-operative 
  treatment may alleviate symptoms but does not correct the deformity of the big toe. 
-</p>
+</p><br/>
 
       <h1>FORE FOOT PAIN</h1>
         <ForeFoot/>
