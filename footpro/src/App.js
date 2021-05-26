@@ -13,7 +13,7 @@ import Lateral from './Components/Footcare/Pages/Lateral';
 import Services from './Components/Services/Ourservices'
 import Home from  "./Components/Home/home"
 import Special from './Components/Home/special';
-import Orthoses from './Components/Services/Pages/Orthoses'
+import Orthoses from './Components/Services/Pages/Orthoses/Orthoses'
 import logo from "./Assets/Images/logo.jpeg"
 import Pages from './Components/Pages/pages'
 import Footer from './Components/Footer/footer'

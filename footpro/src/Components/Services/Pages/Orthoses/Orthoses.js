@@ -1,6 +1,6 @@
 import React from 'react';
-import bg from '../../../Assets/Images/Wallpaper1.jpg';
-import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import bg from '../../../../Assets/Images/Wallpaper1.jpg';
+import "../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
 export default function Orthoses() {
