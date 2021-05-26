@@ -22,13 +22,16 @@ import './App.css'
 import './navcss.css' 
 import Header from './Components/Header/header';
 import WebHeader from './Components/Header/WebHeader';
+import Dropdown from './Components/Dropdown/Dropdown';
+
 class App extends React.Component {
   render() {
-  return (                                                                          
+  return (                                                                       
     <div>
     <Router>
-      <div className="navbar" id="for-web-nav"><WebHeader/></div>
-      <div id="for-mob-nav"><Header/></div>
+      {/* <div className="navbar" id="for-web-nav"><WebHeader/></div>
+      <div id="for-mob-nav"><Header/></div> */}
+      <Dropdown/>
       <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/contact" component={Contact}/>
@@ -38,7 +41,7 @@ class App extends React.Component {
       <Route exact path="/pages" component={Pages}/>
       <Route exact path="/orthotics" component={Orthoses}/>
       
-
+<Route exact path ="/drop" component={Dropdown}/>
       <Route exact path="/footcare" component={Fcare}/>
       <Route exact path="/topseparator" component={ToeSeparator}/>
       <Route exact path="/metartasalbar" component={MetartasalBar}/>

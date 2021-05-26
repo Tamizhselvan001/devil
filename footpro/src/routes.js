@@ -13,6 +13,7 @@ import Pages from './Components/Pages/pages'
 import Header from './Components/Header/header';
 import Orthoses from './Components/Services/Pages/Orthoses';
 import Special from './Components/Home/special';
+import Dropdown from './Components/Dropdown/Dropdown';
 
 function Routes() {
     return (
@@ -21,6 +22,7 @@ function Routes() {
       <Header/>
       <Switch>
       <Route exact path="/" component={Home}/>
+      
       <Route exact path="/contact" component={Contact}/>
       <Route exact path="/special" component={Special}/>
       <Route exact path="/about" component={Aboutus}/>
