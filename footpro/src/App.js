@@ -40,7 +40,7 @@ class App extends React.Component {
   return (                                                                          
     <div>
     <Router>
-      <Dropdown/>
+      {/* <Dropdown/> */}
       <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/contact" component={Contact}/>
