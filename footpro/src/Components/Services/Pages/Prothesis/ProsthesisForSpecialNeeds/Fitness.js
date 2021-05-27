@@ -1,5 +1,5 @@
 import React from 'react'
-
+import bg from '../../../../../Assets/Images/Wallpaper1.jpg';
 function Fitness() {
 return (
 <div>
