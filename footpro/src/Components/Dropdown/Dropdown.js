@@ -9,7 +9,7 @@ function Dropdown() {
             <input type="checkbox" name="" id="check"/>
             
             <div class="logo-container">
-                <h3 class="logo">Sethu</h3>
+                
             </div>
 
             <div class="nav-btn">
@@ -19,7 +19,7 @@ function Dropdown() {
                         <NavLink to="/"> Home </NavLink>
                         </li>
                         <li class="nav-link" >
-                            <NavLink to="/service">Services<i class="fas fa-caret-down"></i></NavLink>
+                            <NavLink to="">Services<i class="fas fa-caret-down"></i></NavLink>
                             <div class="dropdown">
                             <ul>
                             <li class="dropdown-link">
