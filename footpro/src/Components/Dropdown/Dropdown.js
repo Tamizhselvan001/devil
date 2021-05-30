@@ -19,12 +19,6 @@ function Dropdown() {
                         <NavLink to="/"> Home </NavLink>
                         </li>
                         <li class="nav-link" >
-                        <NavLink to="/about">About</NavLink>
-                        </li>
-                        <li class="nav-link" >
-                        <NavLink to="/footcare">Footcare</NavLink>
-                        </li>
-                        <li class="nav-link" >
                             <NavLink to="/service">Services<i class="fas fa-caret-down"></i></NavLink>
                             <div class="dropdown">
                             <ul>
@@ -63,7 +57,7 @@ function Dropdown() {
                                                     <li class="dropdown-link">
                                                         <NavLink to="/trans-femoral">Trans-femoral</NavLink>
                                                     </li>
-                                                    <div class="arrow"></div>
+                                                    
                                                 </ul>
                                             </div>
                                     </li>
@@ -80,7 +74,7 @@ function Dropdown() {
                                                     <li class="dropdown-link">
                                                         <NavLink to="/myoelectric">Myo-Electric Prosthesis</NavLink>
                                                     </li>
-                                                    <div class="arrow"></div>
+                                                    
                                                 </ul>
                                             </div>
                                     </li>
@@ -91,7 +85,7 @@ function Dropdown() {
                                                 <li class="dropdown-link">
                                                     <NavLink to="/silicone">Silicone </NavLink>
                                                     </li>
-                                                    <div class="arrow"></div>
+                                                    
                                                 </ul>
                                             </div>
                                     </li>
@@ -105,20 +99,26 @@ function Dropdown() {
                                                     <li class="dropdown-link">
                                                         <NavLink to="/fitness">Fitness Prosthesis</NavLink>
                                                     </li>
-                                                    <div class="arrow"></div>
+                                                    
                                                 </ul>
                                             </div>
                                     </li>
-                                        <div class="arrow"></div>
+                                        
                                     </ul>
                                 </div>
                             </li>
                             <li class="dropdown-link">
                             <NavLink to="/contact">Orthotics</NavLink>
                             </li>            
-                            <div class="arrow"></div>
+                            
                             </ul>
                             </div>
+                        </li>
+                        <li class="nav-link" >
+                        <NavLink to="/footcare">Footcare</NavLink>
+                        </li>
+                        <li class="nav-link" >
+                        <NavLink to="/about">About</NavLink>
                         </li>
                         <li class="nav-link" >
                         <NavLink to="/contact">Contact</NavLink>
@@ -137,10 +137,4 @@ function Dropdown() {
 }
 
 export default Dropdown;
-
-
-
-
-
-
 

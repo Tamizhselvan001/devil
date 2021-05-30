@@ -73,26 +73,4 @@
   color: #1a1a1a;
   font-size: 0.8em;
 }
-.card .details .social-icons {
-  position: relative;
-  display: flex;
-  margin-top: 10px;
-}
-.card .details .social-icons a {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  display: flex;
-  margin: 5px;
-  font-size: 18px;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  background: #333;
-  color: #fff;
-  transition: 0.2s;
-}
-.card .details .social-icons a:hover {
-  background: #d31a02;
-}
      

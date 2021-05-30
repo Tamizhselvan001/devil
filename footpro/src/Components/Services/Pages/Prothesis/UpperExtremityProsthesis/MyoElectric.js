@@ -1,6 +1,6 @@
 import React from 'react'
-import bg from '../../../../../Assets/Images/Wallpaper1.jpg';
 
+import bg from '../../../../../Assets/Images/Wallpaper1.jpg';
 function MyoElectric() {
 return (
 <div>

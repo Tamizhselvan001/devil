@@ -8,7 +8,6 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
 }
 
 ul{
@@ -121,13 +120,14 @@ header{
 
 .dropdown-link > a{
     display: flex;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     color: #3498db;
     padding: .5rem 1rem;
     font-size: .9rem;
     align-items: center;
     justify-content: space-between;
     transition: .3s;
+    width: 215px;
 }
 
 .dropdown-link:hover > a{
@@ -166,7 +166,7 @@ header{
 
 .dropdown.second{
     top: 0;
-    left: 100%;
+    left: 180px;
     padding-left: .8rem;
     cursor: pointer;
     transform: translateX(10px);
