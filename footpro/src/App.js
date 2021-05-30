@@ -34,6 +34,7 @@ import WaterProof from './Components/Services/Pages/Prothesis/ProsthesisForSpeci
 import Cosmetic from './Components/Services/Pages/Prothesis/UpperExtremityProsthesis/Cosmetic'
 import Mechanical from './Components/Services/Pages/Prothesis/UpperExtremityProsthesis/Mechanical'
 import MyoElectric from './Components/Services/Pages/Prothesis/UpperExtremityProsthesis/MyoElectric'
+import Mail from './Components/Contact/contact2';
 
 class App extends React.Component {
   render() {
@@ -48,7 +49,7 @@ class App extends React.Component {
       <Route exact path="/about" component={Aboutus}/>
       <Route exact path="/pages" component={Pages}/>
       <Route exact path="/orthotics" component={Orthoses}/>
-      
+      <Route exact path="/mail" component={Mail}/>
 
       <Route exact path="/footcare" component={Fcare}/>
       <Route exact path="/topseparator" component={ToeSeparator}/>
