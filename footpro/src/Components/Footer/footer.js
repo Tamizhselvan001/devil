@@ -76,10 +76,10 @@ return (
 </div>
 <div class="container d-block d-sm-none">
 <nav class="navbar navbar-light">
-  <a class="navbar-brand" id="footer-icons" href="#">
+  <a class="navbar-brand" id="footer-icons" href="tel:9360655122">
   <i class="fa fa-phone"></i>
   </a>
-  <a class="navbar-brand" id="footer-icons" href="#">
+  <a class="navbar-brand" id="footer-icons" href="https://wa.me/919710902659" target="_blank">
   <i class="fa fa-whatsapp"></i>
   </a>
 </nav>
