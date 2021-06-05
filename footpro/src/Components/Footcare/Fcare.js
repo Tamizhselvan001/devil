@@ -4,7 +4,7 @@ import './mystyle.css'
 import {Link} from "react-router-dom";
 function Fcare() {
     return (
-        <div class="carereBody container">
+        <div class="carereBody container Pages-font-size">
           <div align="center">
             <h1 class="mt-4 mb-3">Footcare</h1>
         <div class="row w-100">
@@ -18,7 +18,6 @@ function Fcare() {
             <div class="details">
               <div class="content">
                 <p><Link to="/topseparator">TOE SEPARATOR / TOE STOPPER</Link></p>
-              <p>Web Developer</p>
               </div>
             </div>
             </div>
@@ -36,7 +35,6 @@ function Fcare() {
             <div class="details">
               <div class="content">
                 <p><Link to="/medicalarchsupport">MEDIAL ARCH SUPPORT</Link></p>   
-              <p>Web Developer</p>
               </div>
             </div>
             </div>
@@ -55,7 +53,6 @@ function Fcare() {
             <div class="details">
               <div class="content">
                 <p><Link to="/lateral">LATERAL / MEDIAL WEDGE</Link></p>   
-              <p>Web Developer</p>
               </div>
             </div>
             </div>
@@ -73,7 +70,6 @@ function Fcare() {
             <div class="details">
               <div class="content">
                 <p><Link to="/metartasalbar">METARTASAL BAR / FOREFOOT ROCKER SOLES</Link></p>   
-              <p>Web Developer</p>
               </div>
             </div>
             </div>

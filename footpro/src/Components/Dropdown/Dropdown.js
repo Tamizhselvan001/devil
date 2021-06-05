@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route, NavLink} from "react-router-dom";
 import "./Dropdown.css"
-// import Logo from '../../Assets/Images/Logo.jpg';
+import Logo from '../../Assets/Images/Logo.jpg';
 
 class Dropdown extends React.Component {
 constructor(props) {
@@ -22,7 +22,7 @@ return (
             <input type="checkbox" name="" id="check"/> 
             : <><input type="checkbox" name="" id="check"/></>}
             <div class="logo-container m-1">
-                {/* <img src={Logo}   width="100%"  alt="Logo"/> */}
+                <img src={Logo}   width="100%"  alt="Logo"/>
             </div>
             <div class="nav-btn ">
                 <div class="nav-links">
@@ -48,9 +48,6 @@ return (
                             </li>
                             <li class="dropdown-link">
                             <NavLink to="/ankle" onClick={this.handleToggleClick}>Ankle boot</NavLink>
-                            </li>
-                            <li class="dropdown-link">
-                            <NavLink to="/" onClick={this.handleToggleClick}>Surgical boot</NavLink>
                             </li>
                             <li class="dropdown-link">
                             <NavLink to="/" onClick={this.handleToggleClick}>Kids care</NavLink>

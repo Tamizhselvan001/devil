@@ -3,7 +3,7 @@ import bg from '../../Assets/Images/Wallpaper1.jpg';
 
 const Mcp=()=> {
 return (
-<div class="row container-fluid mt-3">
+<div class="row container-fluid mt-3 Pages-font-size">
   <div class="col-sm-4 justify-content-center">
   <img class="w-100 rounded mt-2" src={bg}/>
   </div>
@@ -12,7 +12,6 @@ return (
    <p>
    MCR and MCP footwear’s are made of premium quality Micro Cellular Rubber and Micro Cellular Polymer, which will help diabetic patients to prevent from diabetic neuropathy, peripheral vascular disease and other diabetic foot problems. MCR Slippers and Shoes are ideal for Heel Pain, Back Pain, Knee Pain and Leg Pain.<br/>
 Our products are scientifically designed, Unique, Soft, Flexible and provides extra comfort for your feet. Benefits of our product will provides to diabetes patients, including many of who suffer from poor blood circulation in their feet.
-
    </p> 
    <h4>
    DIABETIC FOOTWEAR, ORTHOPETIC SLIPPERS HEALTH BENEFITS

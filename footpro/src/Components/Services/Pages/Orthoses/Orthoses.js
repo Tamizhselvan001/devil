@@ -5,7 +5,7 @@ import "../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 export default function Orthoses() {
 return(
-<div className="container">
+<div className="container Pages-font-size">
   <h1 class="mt-5 text-center">Orthotics</h1>
   <p>
     Orthotics, commonly called braces/callipers, are devices used to correct, support or replace musculoskeletal functions lost or impaired as a result of injury or congenital irregularity.

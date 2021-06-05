@@ -7,43 +7,43 @@ export default function MetatarsalBar() {
 
 function LegLength() {
     return (
-        <div class="row">
+        <div class="row Pages-font-size">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
         <div class="col-sm-8  mt-2 mb-5">           
              <p>
              A discrepancy in leg length will usually become obvious to parents as they watch their child grow and begin to crawl and walk. Some children are born with legs of different lengths. In other cases, illness or injury causes a discrepancy in length to develop over time. While a slight difference in leg length may not cause symptoms, a significant difference can cause a noticeable limp and make it difficult for a child to run and play. 
-             <br/><br/>
+             <br/>
  Treatment for a discrepancy depends upon the severity. In many cases, a minor difference in leg length can be evened out by wearing a lift in one shoe. A child with a more significant difference, however, may benefit from surgery to make his or her legs the same length. 
 
-              <br/><br/>
+              <br/>
              </p>
-             <h4>Previous Injury to a Bone in the Leg  </h4><br/>
+             <h4>Previous Injury to a Bone in the Leg  </h4>
              <p>
              A broken leg bone can lead to a limb length discrepancy if it heals in a shortened position. This is more likely to happen if the bone was broken into many pieces. It is also more likely to happen if the skin and muscle tissue around the bone were severely injured and exposed, as occurs in an open fracture. In a child, a broken bone sometimes grows faster for several years after healing, causing it to become longer than the bone on the opposite side. This type of overgrowth occurs most often in young children with femur (thighbone) fractures. 
-             <br/><br/>
+        
 Alternatively, a break in a child's bone through the growth plate near the end of the bone may cause slower growth, resulting in a shorter leg. 
-<br/><br/>
+<br/>
              </p>  
-             <h4>Bone Infection </h4><br/>
+             <h4>Bone Infection </h4>
              <p>Bone infections that occur in growing children may cause a significant limb length discrepancy. This is especially true if the infection happens in infancy. 
              <br/><br/>
 Certain bone diseases may also cause limb length discrepancy. 
 </p><br/>
-             <h4>Symptoms </h4><br/>
+             <h4>Symptoms </h4>
              <p>Patients who have differences of 3.5 to 4 percent of total leg length (about 4 cm or 2/3 inches in an average adult) may limp or have other difficulties when walking. Because these differences require the patient to exert more effort to walk, he or she may tire easily. </p><br/>
-             <h4>Nonsurgical Treatment </h4><br/>
+             <h4>Nonsurgical Treatment </h4>
              <p>For patients with minor limb length discrepancies (less than 1 inch) and no deformity, treatment is usually nonsurgical in nature. Because the risks of surgery may outweigh the benefits, surgical treatment to equalize small differences in leg length is not usually recommended. 
 </p><br/>
-             <h4>Nonsurgical treatments may include: </h4><br/>
+             <h4>Nonsurgical treatments may include: </h4>
              <p>Observation. If your child has not yet reached skeletal maturity, your doctor may recommend simple observation until growing is complete. During this time, your child will be reevaluated at regular intervals to determine whether the discrepancy is increasing or remaining the same. 
              <br/><br/>
 Wearing a shoe lift. A lift fitted to the inside or outside of the shoe can often improve a patient's ability to walk and run. A shoe lift may also relieve back pain caused by a smaller limb length discrepancy. Shoe lifts are inexpensive and can be removed easily if they are not effective. 
 <br/><br/>
 Insoles help to correct limb length discrepancy easily . The patient is able to walk without limping with correction insoles. Correction is possible for varying lengths with Insoles. Also, our insoles neatly fit inside the shoe or footwear and is not easily identifiable. 
 </p> <br/>
-             <h4>Surgical Treatment </h4><br/>
+             <h4>Surgical Treatment </h4>
              <p>Please consult a doctor for detailed information on corrections with surgery.</p>
         </div>
         </div>
@@ -57,7 +57,7 @@ Insoles help to correct limb length discrepancy easily . The patient is able to 
        <img class="w-100 rounded mt-2" src={bg}/>
        </div>
        <div class="col-sm-8  mt-2 mb-5">   
-       <h4>DIABETIC FOOT ULCER</h4>  <p/><p/>     
+       <h4>DIABETIC FOOT ULCER</h4>     
             <p>
             Diabetic foot ulcer is a major complication of diabetes mellitus.
             <br/>
@@ -69,17 +69,15 @@ A diabetic foot is a foot that exhibits any pathology that results directly from
 <br/><br/>
 Our insoles also provides the necessary arch support for the weak arches in diabetic patients. The patient is advised to walk regularly using our customized insoles to aid in circulation. Our footwear is made with anti-bacterial and anti-fungal lining to prevent infections. Also, our footwear is designed to have no sharp corners to prevent rubbing and subsequent bruises or injury.
   
-             <br/><br/>
+             
             </p>
-            <h4>DIABETES AND COMMON FOOT PROBLEMS </h4><br/>
+            <h4>DIABETES AND COMMON FOOT PROBLEMS </h4>
             <p>
 Diabetic patients, having higher level of glucose (sugar) in their blood for a long time can cause some serious health issues, including foot problems.</p><br/>
-<h4>How Can Diabetes Affect Your Feet?</h4><br/>
+<h4>How Can Diabetes Affect Your Feet?</h4>
 
-<p>Diabetes can cause two major problems that can affect your feet:</p><br/>
-
+<p>Diabetes can cause two major problems that can affect your feet:</p><br/>  
 <h4>Diabetic neuropathy:</h4> 
-
 <p>Uncontrolled diabetes can damage your nerves system. 
   If you have damaged nerves in your legs and feet, you might not feel heat, cold, or pain.
    This is called “sensory diabetic neuropathy.” If you do not feel a cut or sore on your foot 
@@ -89,7 +87,7 @@ Diabetic patients, having higher level of glucose (sugar) in their blood for a l
       It is estimated that up to 10% of diabetic patients will develop foot ulcers. Foot ulcers occur 
       because of nerve damage and peripheral vascular disease. Use Micro Cellular Rubber (MCR)
    footwear or Micro Cellular Polymer (MCP) footwear to prevent diabetic neuropathy.</p><br/>
-<h4>Peripheral vascular disease:</h4><br/>
+<h4>Peripheral vascular disease:</h4>
 <p> Diabetes also affects the flow of blood. Without good blood flow, it takes
    longer for a sore or cut to heal. Poor blood flow in the arms and legs is called “peripheral vascular
     disease.” Peripheral vascular disease is a circulation disorder that affects blood vessels away from
@@ -98,7 +96,7 @@ Diabetic patients, having higher level of glucose (sugar) in their blood for a l
       in your shoes or use MCR/MCP footwear.
   </p> <br/>
 
-            <h4>Other Common Foot Problems with Diabetes:</h4><br/>
+            <h4>Other Common Foot Problems with Diabetes:</h4>
 
             <p>
             Anyone can get the foot problems listed below. For people with diabetes, however, these common foot problems can possibly lead to infection and serious health issues such as
@@ -112,7 +110,7 @@ Bunion forms when your big toe angles in toward the second toe. Often, the spot
 Hammertoe is a toe that is bent because of a weakened muscle. The weakened muscle makes the tendons shorter, causing the toes to curl under the feet. Hammertoes can run in families. They can also be cause by shoes that are too short. Hammertoes can cause problems with walking and can lead to other foot problems, such as blisters, calluses, and sores. The use of cushioned pads and insoles in your shoes or use MCR/MCP footwear may help protect the hammertoe from irritation.
 </p> <br/>
 
-<h4>PREVENTIVE PROCEDURES</h4><br/>
+<h4>PREVENTIVE PROCEDURES</h4>
 
 <p>
 Along with treating diabetic foot conditions, there are other things we can do to prevent further problems. If you’ve had foot or vascular surgery to correct a problem, we’ll monitor you over the months and years after.
@@ -121,9 +119,9 @@ If we determine at some point down the road that there’s a new area of pressur
 Diabetes care doesn’t stop at controlling blood sugar. If you or a loved one has diabetes, get in the habit of practicing proper foot care, scheduling regular check-ups and seeking early treatment for problems to prevent serious diabetic foot complications, including amputation.
 Last but not the least, use MCR footwear to prevent your feet from all the above foot problems.
 
-</p><br/>
-<h4>Diabetic Foot Care Tips:</h4><p/>
-<ol>
+</p><br/> 
+<h4>Diabetic Foot Care Tips:</h4>                           
+<ol>                                            
    <li>Diabetic patients need to care their feet daily</li>
    <li>Avoid using Pointed Shoes</li>
    <li>Its Important to check is there any Cut or Infection on daily basis</li>
@@ -134,7 +132,7 @@ Last but not the least, use MCR footwear to prevent your feet from all the above
    <li>Keep your blood glucose level targeted range</li>
    <li>Use MCR Footwear/Slippers or Chappals or Sandals and Diabetic Shoes to take care of your feet.</li>
 </ol><br/>
-<h4>How to Right Choose Diabetic Shoes or MCR Based Shoes</h4><br/>
+<h4>How to Right Choose Diabetic Shoes or MCR Based Shoes</h4>
 <ol>
    <li>Buy Shoes with Flat Toe, Avoid Narrow Toe</li>
    <li>Choose Shoes with Padding collar, This will help to prevent the friction and secure your foot.</li>
@@ -148,7 +146,7 @@ Our products are scientifically designed, Unique, Soft, Flexible and provides ex
 
 </p><br/>
 
-<h4>Benefits of MCR Chappals / MCP Slippers/ MCR Footwear and MCR based Diabetic Shoes:</h4><br/>
+<h4>Benefits of MCR Chappals / MCP Slippers/ MCR Footwear and MCR based Diabetic Shoes:</h4>
 
 <p>
 Generally Micro Cellular Rubber Footwear or MCR Footwear used to heal Diabetic foot Problems, Foot Pain, Arch Pain and Back pain. Also it will provide following health benefits
@@ -180,15 +178,13 @@ Generally Micro Cellular Rubber Footwear or MCR Footwear used to heal Diabetic f
  
 
   return (
-      <div className="container">
-      <h1 class="mt-5 text-center">BUNION &OVERLAPPING TOES</h1><br/><br/>
-        <h2>METARTASAL BAR / FOREFOOT ROCKER SOLES</h2><br/>
+      <div className="container Pages-font-size">
+      <h1 class="mt-5 text-center">BUNION & OVERLAPPING TOES</h1><br/>
+        <h2>METARTASAL BAR / FOREFOOT ROCKER SOLES</h2> 
       <p>
       A hallux valgus deformity, commonly called a bunion, is when there is medial deviation of t
       he first metatarsal and lateral deviation of the great toe (hallux). The condition can lead 
-      to painful motion of the joint. 
-      <br/><br/>
-Hallux valgus is the commonest forefoot deformity, with an estimated prevalence of around 30%.
+      to painful motion of the joint. Hallux valgus is the commonest forefoot deformity, with an estimated prevalence of around 30%.
  It causes symptoms on the medial edge of the foot, the sole, and the small toes. Non-operative 
  treatment may alleviate symptoms but does not correct the deformity of the big toe. 
 </p><br/>
