@@ -73,4 +73,11 @@
   color: #1a1a1a;
   font-size: 0.8em;
 }
-     
+
+@media (min-width: 1200px),(min-width: 992px),
+(min-width: 768px),(min-width: 668px){
+    .Pages-font-size{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+}

@@ -3,7 +3,7 @@ import React from 'react'
 import bg from '../../../../../Assets/Images/Wallpaper1.jpg';
 function WaterProof() {
 return (
-<div>
+<div className="Pages-font-size">
 <h2 class="text-center">Water Proof Prosthesis</h2>
 <div class="row container-fluid justify-content-center mt-3">
   <div class="col-sm-4 ">

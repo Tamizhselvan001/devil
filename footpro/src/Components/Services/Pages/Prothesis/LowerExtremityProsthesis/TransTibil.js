@@ -3,7 +3,7 @@ import bg from '../../../../../Assets/Images/Wallpaper1.jpg';
 
 const TransTibil=()=> {
 return (
-<div>
+<div className="Pages-font-size">
 <h2 class="text-center">Trans-tibial</h2>
 <div class="row container-fluid justify-content-center mt-3">
   <div class="col-sm-4 ">

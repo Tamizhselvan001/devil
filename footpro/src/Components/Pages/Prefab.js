@@ -3,7 +3,7 @@ import bg from '../../Assets/Images/Wallpaper1.jpg';
 
 const Prefab=()=> {
 return (
-<div class="row container-fluid mt-3">
+<div class="row container-fluid mt-3 Pages-font-size">
   <div class="col-sm-4 justify-content-center">
   <img class="w-100 rounded mt-2" src={bg}/>
   </div>

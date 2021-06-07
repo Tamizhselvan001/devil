@@ -1,4 +1,5 @@
 import React from 'react';
+import '../mystyle.css'  
 import bg from '../../../Assets/Images/Wallpaper1.jpg';
 import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
@@ -7,7 +8,7 @@ export default function Lateral() {
 
 function ForeFoot() {
     return (
-        <div class="row">
+        <div class="row Pages-font-size">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -37,18 +38,18 @@ function ForeFoot() {
  
 
   return (
-      <div className="container">
-      <h1 class="mt-5 text-center">BUNION &OVERLAPPING TOES</h1><br/><br/>
-        <h2>LATERAL / MEDIAL WEDGE</h2><br/>
+      <div className="container Pages-font-size">
+      <h1 class="mt-5 text-center">BUNION & OVERLAPPING TOES</h1><br/>
+        <h2>LATERAL / MEDIAL WEDGE</h2>
       <p>
       A hallux valgus deformity, commonly called a bunion, is when there is medial deviation of t
       he first metatarsal and lateral deviation of the great toe (hallux). The condition can lead 
       to painful motion of the joint. 
-      <br/><br/>
+      <br/>
 Hallux valgus is the commonest forefoot deformity, with an estimated prevalence of around 30%.
  It causes symptoms on the medial edge of the foot, the sole, and the small toes. Non-operative 
  treatment may alleviate symptoms but does not correct the deformity of the big toe. 
-</p><br/>
+</p>
 
       <h1>FORE FOOT PAIN</h1>
         <ForeFoot/>

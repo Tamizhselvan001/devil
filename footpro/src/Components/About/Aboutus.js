@@ -1,10 +1,11 @@
 import React from 'react';
 import '../../App.css'
+import './about.css'
 import bg from '../../Assets/Images/About-img.jpg';
 
 const Aboutus=()=>{
     return(
-        <div>
+        <div className="Pages-font-size">
         <div class="container-fluid w-100">
         <div class="row w-100">
         <div class="col-sm-4">

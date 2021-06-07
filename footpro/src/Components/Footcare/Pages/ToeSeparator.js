@@ -7,7 +7,7 @@ export default function ToeSeparator() {
 
 function Corns() {
     return (
-        <div class="row">
+        <div class="row Pages-font-size">
         <div class="col-sm-4 justify-content-center">
         <img class="w-100 rounded mt-2" src={bg}/>
         </div>
@@ -205,7 +205,7 @@ Usage of Customised Insoles from FootPro can help to correct the deformity by of
  
 
   return (
-      <div className="container">
+      <div className="container Pages-font-size">
       <h1 class="mt-5 text-center">BUNION &OVERLAPPING TOES</h1><br/><br/>
         <h2>TOE SEPARATOR / TOE STOPPER</h2><br/>
       <p>
